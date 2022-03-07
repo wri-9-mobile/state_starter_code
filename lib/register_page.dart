@@ -27,9 +27,9 @@ class RegisterPage extends StatelessWidget {
               TextFormField(
                 decoration: InputDecoration(
                   labelText: 'Password',
-                  suffix: GestureDetector(
-                    child: const Icon(Icons.remove_red_eye),
-                    onTap: () {},
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.remove_red_eye),
+                    onPressed: () {},
                   ),
                 ),
                 obscureText: true,
